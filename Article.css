@@ -1,0 +1,1338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#main{
+    position: relative;
+}
+
+/* blog detail styling start */
+
+#blogDetail{
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+    object-fit: cover;
+    background-size: cover;
+    background-image: url(Article_Images/Rectangle\ 40609.png);
+}
+.blogClm{
+    margin-left: 2.7vw;
+    padding-top: 100px;
+}
+.blogContent{
+    width: 73%;
+    display: flex;
+    align-items: center;
+}
+.blogContent p{
+    padding: 5px 8px;
+    margin-bottom: 0;
+}
+.blogContent>.blogContenthome{
+    display: flex;
+    align-items: center;
+    background: #EF5C35
+}
+.blogContent>.blogContentCategory{
+    display: flex;
+    align-items: center;
+    background: #EF5C35
+}
+
+/* quick_Healthy styling start */
+
+#quick_Healthy{
+    padding-top: 50px;
+    position: relative;
+}
+.quickClm-1{
+    margin-left: 2.5vw;
+}
+.quickClm-1 h2{
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+.quickClm-1 p{
+    color: #757575;
+}
+.quickinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quickClm-1>.quickinfo img{
+    width: 55%;
+}
+.quickinfo>.icons>i{
+    font-size: 18px;
+}
+.quickinfo>.icons>i:nth-child(1){
+    padding: 5px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #EF5C35;
+}
+.quickinfo>.icons>i:nth-child(2){
+    padding: 5px;
+    color: #fff;
+    border-radius: 50px;
+    background: #1877F2;
+}
+.quickinfo>.icons>i:nth-child(3){
+    padding: 5px;
+    color: #fff;
+    border-radius: 50px;
+    background: #1DA1F2;
+}
+.quickinfo>.icons>i:nth-child(4){
+    padding: 5px;
+    color: #fff;
+    border-radius: 50px;
+    background: #2867B2;
+}
+.quickClm-1 img{
+    width: 100%;
+    padding-top: 30px;
+}
+.quickClm-1>.quickPra-1{
+    font-size: 13px;
+}
+.quickClm-1>.quickPra-2{
+    font-size: 14px;
+}
+.quttationPra{
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #F4F4F4;
+}
+.quttationPra>img{
+    width: 40px;
+    padding: 5px;
+    margin-top: -50px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.quttationPra>center>p{
+    color: #3C3C3C;
+    width: 80%;
+}
+.quickClm-1>.bestTip{
+    color: #EF5C35;
+    padding-top: 20px;
+    width: fit-content;
+    font-style: italic;
+    border-bottom: 2px solid #EF5C35;
+}
+.veganContent>.veganbox-1{
+    display: flex;
+}
+.veganContent>.veganbox-1 i{
+    color: #EF5C35;
+    font-size: 20px;
+    font-weight: bold;
+}
+.veganContent>.veganbox-1 h6{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.quick_Healthy_images{
+    gap: 20px;
+    display: flex;
+}
+.quick_Healthy_images img{
+    width: 48%;
+    padding: 0;
+}
+.quickline{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+}
+.quickline>.line{
+    width: 40px;
+    margin-right: 10px;
+    border: 1.2px solid #757575;
+}
+.expertTips h4{
+    border: none;
+    color: #000;
+    font-weight: 600;
+    font-style: normal;
+}
+.expertTips>p>b{
+    color: #000;
+}
+.kitchenTips h5{
+    color: #1863DC;
+}
+.kitchenTips li{
+    font-size: 15px;
+    color: #757575;
+}
+.kitchenEssential h5{
+    font-style: italic;
+}
+.kitchenEssential>.chef{
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #EF5C35;
+}
+.kitchenEssential>p{
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f4f4f4; 
+}
+.cookingOil h5{
+    padding: 10px 0;
+}
+.table-container{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.table-row{
+    width: 100%;
+    display: flex;
+}
+.table-cell{
+    flex: 1;
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.table-cell:nth-child(1){
+    flex: 0 0 120px;
+}
+.table-cell:nth-child(2){
+    flex: 0 0 260px;
+}
+.tableImage{
+    display: none;
+}
+.grillChicken h5{
+    color: #1863DC;
+    padding-top: 20px;
+    width: fit-content;
+    border-bottom: 1.5px solid #1863DC;
+}
+.grillChicken ol{
+    padding-top: 10px;
+}
+.grillChicken ol li{
+    color: #757575;
+}
+.grillChicken ol li b{
+    color: #000;
+}
+.mobileImage{
+    display: none;
+}
+.healthyMeal h5{
+    padding-top: 10px;
+}
+.healthyMeal>.mealRadioBtn{
+    display: flex;
+    align-items: center;
+}
+.healthyMeal>.mealRadioBtn p{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+}
+.mealRadioBtn input[type=checkbox] {
+    margin-right: 5px;
+    accent-color: #EF5C35;
+}
+.experTTip h4{
+    padding: 10px;
+}
+.experTTip>p{
+    font-size: 13.3px;
+}
+.experTTip>p>b{
+    color: #000;
+}
+.frquentlyAskQuestions{
+    margin: 50px 0 10px 0;
+}
+.question{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+.question h5{
+    padding: 15px 0;
+    font-size: 15px;
+}
+.question h6{
+    font-size: 18px;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    padding-left: 10px;
+    transition: max-height 1.5s ease;
+}
+.answer p{
+    font-size: 12px;
+    color:#757575;
+}
+.faq.active .answer{
+    max-height: 300px;
+}
+.ArticleButtons button,
+.ArticleButton button{
+    margin: 0 4px 0 0;
+}
+.ArticleButtons button:hover{
+    color: #fff;
+    background-color: #EF5C35;
+}
+.ArticleButtons button:nth-child(1){
+    border: none;
+    background-color: #EF5C35;
+}
+.ArticleButtons button:nth-child(2){
+    color: #EF5C35;
+    font-weight: 500;
+    border: 1px solid #EF5C35;
+}
+.ArticleButtons button:nth-child(3){
+    color: #EF5C35;
+    font-weight: 500;
+    border: 1px solid #EF5C35;
+}
+.ArticleButtons button:nth-child(4){
+    color: #757575;
+    font-weight: 500;
+    border: 1px solid #EF5C35;
+}
+.ArticleButtons button:nth-child(5){
+    color: #fff;
+    font-weight: 500;
+    background-color: #EF5C35;
+}
+.Related_article h4{
+    padding: 30px 0 10px 0;
+    border-bottom: 1.5px solid gray;
+}
+.Related_article li{
+    padding: 10px 0;
+    font-weight: 500;
+    color: #EF5C35;
+    width: fit-content;
+}
+.Related_tags{
+    gap: 10px;
+    display: flex;
+    padding: 20px 0;
+    margin-top: 40px;
+    align-items: center;
+    border-top: 1.5px solid gray;
+    border-bottom: 1.5px solid gray;
+}
+.Related_tags h5{
+    padding-top: 10px;
+}
+.Related_tags button{
+    color: #757575;
+    font-weight: 500;
+    border: 1px solid #EF5C35;
+}
+.Related_tags button:hover{
+    border: none;
+    color: #fff;
+    background-color: #EF5C35;
+}
+.commentSectionImages{
+    display: none;
+}
+.commentSection h4{
+    font-weight: bold;
+    padding: 30px 0 10px 0;
+}
+#cardImg>img{
+    width: 50px;
+}
+.card_content{
+    padding: 0 20px;
+}
+.card_content>h5>label{
+    color: #757575;
+    font-size: 13px;
+    padding-left: 20px;
+}
+.card_content p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.card_content a{
+    color: #000;
+    width: fit-content;
+    text-decoration: none;
+    border-bottom: 1.5px solid black;
+}
+.leaveComment{
+    padding-top: 20px;
+}
+.leaveComment h4{
+    padding-top: 30px;
+    border-top: 1px solid #757575;
+}
+.leaveComment>form>.row>.col>input{
+    padding: 12px 10px;
+}
+.form-floating label{
+    color: #757575;
+}
+.leaveComment form a{
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    background-color: #EF5C35;
+}
+.leaveComment form a:hover{
+    background-color: #c94925;
+}
+.intrestedArticle h4{
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #757575;
+}
+#quickHealthy-2{
+    margin-left: 2.5vw;
+}
+#cardNumb{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cardNumb ul li a:hover{
+    color: #fff;
+    background-color: #1863DC;
+}
+#kitCategories{
+    position: absolute;
+    border-radius: 10px;
+    top: 490px; right: 160px;
+    width: 300px; height: 530px;
+    background-color: #F4F4F4;
+}
+#kitCategories h4{
+    margin: 10px;
+}
+#kitCategories>.line{
+    width: 40%;
+    margin: 5px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.55);
+}
+#kitCategories>.faq>.question{
+    display: flex;
+    cursor: pointer;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#kitCategories>.faq>.question>h5{
+    padding: 15px 0 ;
+    font-size: 18px;
+}
+#kitCategories>.faq>.question>i{
+    padding-top: 15px;
+    font-size: 18px;
+}
+#kitCategories>.answer{
+    max-height: 0;
+    overflow: hidden;
+    padding-left: 10px;
+    transition: max-height 1.5s ease;
+}
+#kitCategories>.answer>li{
+    font-size: 18px;
+    color:#757575;
+}
+#kitCategories>.faq>.active>.answer{
+    max-height: 300px;
+}
+
+.leadingAirtcle{
+    width: 300px;
+    cursor: pointer;
+    position: absolute;
+    height: fit-content;
+    border-radius: 10px;
+    right: 160px; top: 15%;
+    background-color: #F4F4F4;
+}
+.leadingAirtcle>.card{
+    width: 280px; 
+    border: none;
+    height: 100px; 
+}
+.leadingAirtcle h4{
+    margin: 10px;
+}
+.leadingAirtcle>.line{
+    width: 40%;
+    margin: 5px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.55);
+}
+.leadingAirtcle>.card{
+    margin: 0 10px;
+}
+.leadingAirtcle>.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-body>.card-text:nth-child(2){
+    color: #787878;
+}
+
+.kitFavFood{
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    height: fit-content;
+    top: 22.8%; right: 160px;
+    border-radius: 10px;
+    background-color: #F4F4F4;
+}
+.radioBtn{
+    cursor: pointer;
+}
+.radioBtn input[type="radio"]:checked + p{
+    color: red;
+}
+.radioBtn input{
+    accent-color: #EF5C35;
+}
+.radioBtn p{
+    padding: 15px 0 0 10px;
+}
+.kitchenImages{
+    width: 300px;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 90px; right: 150px;
+    background-color: #F4F4F4;
+}
+.kitchenImages img{
+    padding: 10px;
+    width: 300px;
+}
+.kitNewsletter{
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    top: 29%; right: 160px;
+    background-color: #F4F4F4;
+}
+.kitNewsletter p{
+    font-size: 13px;
+    color: #787878;
+}
+.kitNewsletter input{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.kitNewsletter button{
+    width: 90%;
+    height: 50px;
+    border: none;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #EF5C35;
+}
+
+/* website responsive styling start */
+
+@media (min-width:320px) and (max-width:480px){
+    #blogDetail{
+        width: 100%;
+        height: 70vh;
+        color: #fff;
+        object-fit: cover;
+        background-size: cover;
+        background-image: url(Article_Images/Rectangle\ 40611.png);
+    }
+    .blogClm{
+        margin-left: 2.7vw;
+        padding-top: 100px;
+    }
+    .blogContent{
+        width: 59%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .blogContent p{
+        padding: 1px 8px;
+        margin-bottom: 0;
+    }
+    .blogContent>.blogContenthome{
+        display: flex;
+        align-items: center;
+        background: #EF5C35
+    }
+    .blogContent>.blogContentCategory{
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        background: #EF5C35
+    }
+    .quickClm-1 h2 {
+        font-size: 27px;
+        letter-spacing: .5px;
+        font-weight: 600;
+    }
+    .quickClm-1 p {
+        font-size: 18px;
+        color: #757575;
+    }
+    .quickinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .quickClm-1>.quickinfo>img{
+        width: 98%;
+        margin-bottom: 10px;
+    }
+    .quickClm-1>img {
+        width: 100%;
+        height: 90vh;
+        object-fit: revert;
+    }
+    .quickClm-1>.quickPra-1{
+        font-size: 15px;
+    }
+    .quickClm-1>.quickPra-2{
+        font-size: 15.5px;
+    }
+    .quttationPra>center>p{
+        color: #3C3C3C;
+        font-size: 18.5px;
+        width: 80%;
+    }
+    .quickClm-1>.bestTip {
+        font-weight: 700;
+    }
+    .veganContent>.veganbox-1 h6 {
+        font-size: 19px;
+        padding-left: 10px;
+    }
+    .quick_Healthy_images{
+        flex-direction: column;
+    }
+    .quick_Healthy_images>img{
+        width: 100%;
+        height: 80vh;
+    }
+    .expertTips>p{
+        font-size: 16.5px;
+    }
+    .kitchenTips>li{
+        font-size: 16px;
+    }
+    .kitchenEssential h5{
+        padding: 10px 0;
+        font-weight: 600;
+    }
+    .cookingOil h5{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .cookingOil{
+        display: none;
+    }
+    .tableImage{
+        display: flex;
+    }
+    .grillChicken h5{
+        font-weight: bold;
+        border: none;
+        text-decoration: underline;
+    }
+    .quickClm-1>img {
+        display: none;
+    }
+    .experTTip h4{
+        padding: 0;
+        font-weight: bold;
+    }
+    .experTTip>p{
+        font-size: 15px;
+    }
+    .frquentlyAskQuestions h4{
+        font-weight: bold;
+    }
+    .ArticleButtons,
+    .ArticleButton{
+        display: none;
+    }
+    .Related_article h4{
+        font-weight: bold;
+    }
+    .Related_article li{
+        font-weight: bold;
+    }
+    .Related_tags{
+        flex-wrap: wrap;
+    }
+    .card_content{
+        padding: 0 0 0 10px;
+    }
+    .commentSection>.card{
+        display: none;
+    }
+    .commentSectionImages{
+        display: flex;
+        flex-direction: column;
+    }
+    .leaveComment h4{
+        font-weight: bold;
+    }
+    #leaveCommendRow{
+        display: flex;
+        flex-direction: column;
+    }
+    #leaveCommendRow>.col>input{
+        margin-bottom: 20px;
+    }
+    .intrestedArticle h4{
+        font-weight: bold;
+    }
+    #quick_Healthy{
+        position: relative;
+    }
+    .recpieClm-1{
+        position: absolute;
+        top: 100.2%;
+    }
+    #kitCategories{
+        width: 290px;
+        position: absolute;
+        top: 104.5%; left: 6%;
+    }
+    #kitCategories>.faq{
+        margin: 10px;
+    }
+    #kitCategories>.faq>.question{
+        width: 100%;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+    .kitNewsletter{
+        width: 290px;
+        position: absolute;
+        top: 109.9%; left: 6%;
+    }
+    .leadingAirtcle{
+        width: 290px;
+        position: absolute;
+        top: 113.3%; left: 6%;
+    }
+    .leadingAirtcle>.card{
+        width: 260px; 
+        border: none;
+        height: 100px; 
+    }
+    #leadArtText{
+        position: absolute;
+        left: 100px;
+        bottom: -7px;
+    }
+    #leadArtText>.card-text{
+        font-size: 12px;
+    }
+    .kitFavFood{
+        width: 290px;
+        position: absolute;
+        top: 118.6%; left: 6%;
+    }
+    #subscribe{
+        top: 121.5%;
+        height: fit-content;
+        position: absolute;
+        text-align: center;
+    }
+    .subContent>.inputData{
+        width: 100%;
+        background: none;
+    }
+    .subContent>.inputData>input{
+        width: 280px;
+    }
+    .subContent>.inputData>button{
+        width: 280px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .subImage{
+        right: 1%; top: 95%;
+        position: absolute;
+    }
+    .subImage img{
+        width: fit-content;
+        height: 310px;
+    }
+    #foter{
+        top: 128.5%;
+        height: fit-content;
+        position: absolute;
+    }
+    .footerClm-1 p {
+        width: 100%;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    #blogDetail{
+        width: 100%;
+        height: 70vh;
+        color: #fff;
+        object-fit: cover;
+        background-size: cover;
+        background-image: url(Article_Images/Rectangle\ 40611.png);
+    }
+    .blogClm{
+        margin-left: 2.7vw;
+        padding-top: 100px;
+    }
+    .blogContent{
+        width: 59%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .blogContent p{
+        padding: 1px 8px;
+        margin-bottom: 0;
+    }
+    .blogContent>.blogContenthome{
+        display: flex;
+        align-items: center;
+        background: #EF5C35
+    }
+    .blogContent>.blogContentCategory{
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        background: #EF5C35
+    }
+    .quickClm-1 h2 {
+        font-size: 27px;
+        letter-spacing: .5px;
+        font-weight: 600;
+    }
+    .quickClm-1 p {
+        font-size: 18px;
+        color: #757575;
+    }
+    .quickinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .quickClm-1>.quickinfo>img{
+        width: 98%;
+        margin-bottom: 10px;
+    }
+    .quickClm-1>img {
+        width: 100%;
+        height: 90vh;
+        object-fit: revert;
+    }
+    .quickClm-1>.quickPra-1{
+        font-size: 15px;
+    }
+    .quickClm-1>.quickPra-2{
+        font-size: 15.5px;
+    }
+    .quttationPra>center>p{
+        color: #3C3C3C;
+        font-size: 18.5px;
+        width: 80%;
+    }
+    .quickClm-1>.bestTip {
+        font-weight: 700;
+    }
+    .veganContent>.veganbox-1 h6 {
+        font-size: 19px;
+        padding-left: 10px;
+    }
+    .quick_Healthy_images{
+        flex-direction: column;
+    }
+    .quick_Healthy_images>img{
+        width: 100%;
+        height: 80vh;
+    }
+    .expertTips>p{
+        font-size: 16.5px;
+    }
+    .kitchenTips>li{
+        font-size: 16px;
+    }
+    .kitchenEssential h5{
+        padding: 10px 0;
+        font-weight: 600;
+    }
+    .cookingOil h5{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .cookingOil{
+        display: none;
+    }
+    .tableImage{
+        display: flex;
+    }
+    .grillChicken h5{
+        font-weight: bold;
+        border: none;
+        text-decoration: underline;
+    }
+    .quickClm-1>img {
+        display: none;
+    }
+    .experTTip h4{
+        padding: 0;
+        font-weight: bold;
+    }
+    .experTTip>p{
+        font-size: 15px;
+    }
+    .frquentlyAskQuestions h4{
+        font-weight: bold;
+    }
+    .ArticleButtons,
+    .ArticleButton{
+        display: none;
+    }
+    .Related_article h4{
+        font-weight: bold;
+    }
+    .Related_article li{
+        font-weight: bold;
+    }
+    .Related_tags{
+        flex-wrap: wrap;
+    }
+    .card_content{
+        padding: 0 0 0 10px;
+    }
+    .commentSection>.card{
+        display: none;
+    }
+    .commentSectionImages{
+        display: flex;
+        flex-direction: column;
+    }
+    .leaveComment h4{
+        font-weight: bold;
+    }
+    #leaveCommendRow{
+        display: flex;
+        flex-direction: column;
+    }
+    #leaveCommendRow>.col>input{
+        margin-bottom: 20px;
+    }
+    .intrestedArticle h4{
+        font-weight: bold;
+    }
+    #quick_Healthy{
+        position: relative;
+    }
+    .recpieClm-1{
+        position: absolute;
+        top: 100.2%; left: 30%;
+    }
+    #kitCategories{
+        width: 290px;
+        position: absolute;
+        top: 105.2%; left: 33%;
+    }
+    #kitCategories>.faq{
+        margin: 10px;
+    }
+    #kitCategories>.faq>.question{
+        width: 100%;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+    .kitNewsletter{
+        width: 290px;
+        position: absolute;
+        top: 111.5%; left: 33%;
+    }
+    .leadingAirtcle{
+        width: 290px;
+        position: absolute;
+        top: 115.5%; left: 33%;
+    }
+    .leadingAirtcle>.card{
+        width: 260px; 
+        border: none;
+        height: 100px; 
+    }
+    #leadArtText{
+        position: absolute;
+        left: 100px;
+        bottom: -7px;
+    }
+    #leadArtText>.card-text{
+        font-size: 12px;
+    }
+    .kitFavFood{
+        width: 290px;
+        position: absolute;
+        top: 121.7%; left: 33%;
+    }
+    #cardcontent{
+        display: none;
+    }
+    #cardBody>.card-title{
+        font-size: 13px;
+    }
+    #cardBody>.card-text{
+        font-size: 11px;
+    }
+    #subscribe{
+        width: 70%;
+        position: absolute;
+        text-align: center;
+        height: fit-content;
+        top: 124.8%; left: 25%;
+    }
+    .subContent p{
+        width: 115%;
+    }
+    .subContent>.inputData{
+        width: 100%;
+        background: none;
+    }
+    .subContent>.inputData>input{
+        width: 280px;
+    }
+    .subContent>.inputData>button{
+        width: 280px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .subImage{
+        left: 10%; top: 95%;
+        position: absolute;
+    }
+    .subImage img{
+        width: fit-content;
+        height: 400px;
+    }
+    #foter{
+        top: 132.5%;
+        height: fit-content;
+        position: absolute;
+    }
+    .footerClm-1 p {
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .blogContent {
+        width: 92%;
+        display: flex;
+        align-items: center;
+    }
+    .quickClm-1>.quickinfo img {
+        padding: 0;
+        width: 55%;
+    }
+    .table-cell:nth-child(2){
+        flex: 0 0 200px;
+    }
+    .ArticleButton,
+    .ArticleButtons{
+        display: none;
+    }
+    #cardcontent>i{
+        padding: 5px 0;
+    }
+    #cardcontent>button{
+        padding: 5px 3px;
+    }
+    .subContent>.inputData input {
+        height: 43px;
+        width: 215px;
+        outline: none;
+        border: none;
+        padding-left: 10px;
+        border-radius: 10px 0 0 10px;
+        background-color: #F4F4F4;
+    }
+    .subContent>.inputData {
+        width: 74.5%;
+        border-radius: 10px;
+        background-color: #F4F4F4;
+    }
+    #kitCategories{
+        position: absolute;
+        border-radius: 10px;
+        top: 490px;
+        right: 90px;
+        width: 300px;
+        height: 530px;
+        background-color: #F4F4F4;
+    }
+    .leadingAirtcle {
+        width: 300px;
+        cursor: pointer;
+        position: absolute;
+        height: fit-content;
+        border-radius: 10px;
+        right: 90px;
+        top: 15.9%;
+        background-color: #F4F4F4;
+    }
+    .quttationPra>center>p {
+        color: #3C3C3C;
+        width: 86%;
+    }
+    .kitFavFood {
+        width: 300px;
+        padding: 10px;
+        position: absolute;
+        height: fit-content;
+        top: 24.2%;
+        right: 90px;
+        border-radius: 10px;
+        background-color: #F4F4F4;
+    }
+    .kitNewsletter {
+        width: 300px;
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+        border-radius: 10px;
+        top: 30.8%;
+        right: 90px;
+        background-color: #F4F4F4;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1440px){
+    #blogDetail {
+        width: 100%;
+        height: 40vh;
+    }
+    .quickClm-1>.quickinfo img {
+        padding: 0;
+        width: 55%;
+    }
+    #subscribe {
+        width: 100%;
+        height: 45vh;
+    }
+    .subContent>.inputData {
+        width: 64.7%;
+        border-radius: 10px;
+        background-color: #F4F4F4;
+    }
+    #foter {
+        width: 100%;
+        height: 40vh;
+        color: #fff;
+        background-color: #13181F;
+    }
+    #kitCategories {
+        width: 300px;
+        height: 530px;
+        position: absolute;
+        border-radius: 10px;
+        top: 490px; right: 225px;
+        background-color: #F4F4F4;
+    }
+    .leadingAirtcle{
+        width: 300px;
+        cursor: pointer;
+        position: absolute;
+        height: fit-content;
+        border-radius: 10px;
+        top: 16.9%; right: 225px;
+        background-color: #F4F4F4;
+    }
+    .kitFavFood {
+        width: 300px;
+        padding: 10px;
+        position: absolute;
+        height: fit-content;
+        top: 25.7%;
+        right: 225px;
+        border-radius: 10px;
+        background-color: #F4F4F4;
+    }
+    .kitNewsletter {
+        width: 300px;
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+        border-radius: 10px;
+        top: 32.7%;
+        right: 225px;
+        background-color: #F4F4F4;
+    }
+}
+@media (min-width:1441px){
+    #blogDetail {
+        width: 39.5%;
+        height: 14vh;
+        margin-left: 33%;
+    }
+    .blogContent {
+        width: 100%;
+    }
+    #quickClm-1{
+        width: 28%;
+        margin-left: 24.2%;
+    }
+    #quickHealthy-2{
+        width: 28%;
+        margin-left: 24.2%;
+    }
+    .cardContent>button{
+        height: 20px;
+        font-size: 10px;
+    }
+    .card-body p{
+        font-size: 10px;
+    }
+    .cardContent>i {
+        padding: 0 0 0 3px;
+    }
+    .cardContent>label {
+        padding: 0px 0 0 5px;
+    }
+    #kitCategories,
+    .leadingAirtcle,
+    .kitFavFood,
+    .kitNewsletter{
+        right: 700px;
+    }
+    .leadingAirtcle{
+        top: 16.4%;
+    }
+    .kitFavFood{
+        top: 25%;
+    }
+    .kitNewsletter{
+        top: 31.9%;
+    }
+    #subscribe{
+        width: 28%;
+        height: 18vh;
+        margin-left: 32.5%;
+    }
+    #subscriberow{
+        display: none;
+    }
+    .subscribeText{
+        width: 100%;
+        margin-left: 2%;
+    }
+    .subContent h2 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .subContent p{
+        font-size: 10px;
+    }
+    .subContent>.inputData {
+        width: 107%;
+        border-radius: 10px;
+        background-color: #F4F4F4;
+    }
+    .subContent>.inputData input {
+        width: 250px;
+    }
+    .subContent>.inputData button{
+        padding: 10px;
+    }
+    .subImage img {
+        width: 300px;
+        height: 300px;
+    }
+    #foter{
+        width: 28%;
+        height: 18vh;
+        margin-left: 32.5%;
+    }
+    #foterColm{
+        display: none;
+    }
+    #foter .footerClm-1 {
+        width: 56%;
+    }
+    .footerClm-1{
+        margin-left: 0;
+    }
+    .footerClm-2 h5{
+        font-size: 12px;
+    }
+    .footerClm-2 p{
+        margin: 2px 0;
+    }
+}
+
+@media screen and (min-width: 2260px) and (min-height: 1280px){
+    #blogDetail {
+        width: 39.5%;
+        height: 18vh;
+        margin-left: 33%;
+    }
+    .blogContent {
+        width: 110%;
+    }
+    #quickClm-1{
+        width: 26.5%;
+    }
+    #kitCategories,
+    .leadingAirtcle,
+    .kitFavFood,
+    .kitNewsletter{
+        right: 615px;
+    }
+    #subscribe{
+        height: 25vh;
+    }
+    .subContent p {
+        font-size: 8px;
+    }
+    .subContent>.inputData {
+        width: 125%;
+        border-radius: 10px;
+        background-color: #F4F4F4;
+    }
+    #foter{
+        height: 25vh;
+    }
+}
